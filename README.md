@@ -15,3 +15,7 @@ This repository contained Fortran and python code used to analysis lammps output
    id type x y z
   if line_chunks[0] !="ITEM:" and len(line_chunks) == 5:
   number 5 = len(id type x y z)
+
+
+
+
