@@ -24,6 +24,21 @@ Lmpplot.py: Read lammps output file fix ave/chunk, fix ave/time, log and lammps 
 
     Usage:https://github.com/ruanyangry/gromacs-lammps-process-simulation  
     
+lmptable.py: Generated lammps table potential for Bead-Spring simulation.  
+
+    Usage: python lmptable.py input.inp totatomtypes.  
+    This code used to create lammps table potential file,current support pair_style lj/cut and lj/expand.  
+    input file input.inp need contains atom type number and ach types sigma epsion charge information.
+    
+lmptable-lj.py: Support pair_style in Liu Jun doctoral dissertation for Bead-Spring simulation.  
+  
+    Usage: python lmptable-lj.py input.inp totatomtypes.  
+    
+    
+    
+    
+    
+    
 
 
 
