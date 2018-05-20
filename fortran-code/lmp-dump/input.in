@@ -1,0 +1,4 @@
+nvtcl.lammpstrj     #file name
+9000000             #totstep
+500000              #frequency
+6000                #totatom

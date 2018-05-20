@@ -1,0 +1,6 @@
+50000          # totstep
+1000           # frequency
+200            # tot atoms
+dump.reax.cho  # dumpname
+frame.txt      # frame file
+5              # tot lines in frame file
